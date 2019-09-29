@@ -23,13 +23,13 @@ var overviewerConfig = {
         "UPPERRIGHT": 1
     },
     "worlds": [
-        "minecraft - overworld",
+        "overworld_2019-09-03",
         "minecraft - nether"
     ],
     "tilesets": [
         {
             "north_direction": 0,
-            "world": "minecraft - overworld",
+            "world": "overworld_2019-09-03",
             "poititle": "Markers",
             "imgextension": "png",
             "maxZoom": 10,
@@ -42,7 +42,7 @@ var overviewerConfig = {
                 176
             ],
             "name": "Day",
-            "base": "",
+            "base": "https://flexas.s3.amazonaws.com/",
             "defaultZoom": 1,
             "bgcolor": "#1a1a1a",
             "isOverlay": false,
@@ -52,11 +52,11 @@ var overviewerConfig = {
                 80,
                 176
             ],
-            "path": "day"
+            "path": "2019-09-03_day"
         },
         {
             "north_direction": 0,
-            "world": "minecraft - overworld",
+            "world": "overworld_2019-09-03",
             "poititle": "Markers",
             "imgextension": "png",
             "maxZoom": 10,
@@ -69,7 +69,7 @@ var overviewerConfig = {
                 176
             ],
             "name": "Night",
-            "base": "",
+            "base": "https://flexas.s3.amazonaws.com/",
             "defaultZoom": 1,
             "bgcolor": "#1a1a1a",
             "isOverlay": false,
@@ -79,7 +79,7 @@ var overviewerConfig = {
                 80,
                 176
             ],
-            "path": "night"
+            "path": "2019-09-03_night"
         },
         {
             "north_direction": 0,
@@ -106,7 +106,7 @@ var overviewerConfig = {
         },
         {
             "north_direction": 0,
-            "world": "minecraft - overworld",
+            "world": "overworld_2019-09-03",
             "poititle": "Markers",
             "imgextension": "png",
             "maxZoom": 10,
@@ -138,7 +138,7 @@ var overviewerConfig = {
         },
         {
             "north_direction": 0,
-            "world": "minecraft - overworld",
+            "world": "overworld_2019-09-03",
             "poititle": "Markers",
             "imgextension": "png",
             "maxZoom": 10,
@@ -170,7 +170,7 @@ var overviewerConfig = {
         },
         {
             "north_direction": 0,
-            "world": "minecraft - overworld",
+            "world": "overworld_2019-09-03",
             "poititle": "Markers",
             "imgextension": "png",
             "maxZoom": 10,
