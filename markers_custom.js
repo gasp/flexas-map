@@ -102,4 +102,13 @@ markers["2019-09-03_day"] = [
     createInfoWindow: true,
     icon: "map-marker.png"
   },
-]
+];
+markers["2019-09-03_night"] = [
+  {
+    displayName: "Points of Interest",
+    groupName: "CustomMarkers",
+    checked: true,
+    createInfoWindow: true,
+    icon: "map-marker.png"
+  },
+];

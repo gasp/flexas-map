@@ -23,10 +23,38 @@ var overviewerConfig = {
         "UPPERRIGHT": 1
     },
     "worlds": [
+        "overworld_2019-09-30",
         "overworld_2019-09-03",
         "minecraft - nether"
     ],
     "tilesets": [
+        {
+            "north_direction": 0,
+            "world": "overworld_2019-09-30",
+            "poititle": "Markers",
+            "imgextension": "png",
+            "maxZoom": 10,
+            "last_rendertime": 1569710729,
+            "minZoom": 0,
+            "zoomLevels": 10,
+            "spawn": [
+                -128,
+                80,
+                176
+            ],
+            "name": "Day",
+            "base": "https://flexas.s3.amazonaws.com/",
+            "defaultZoom": 1,
+            "bgcolor": "#1a1a1a",
+            "isOverlay": false,
+            "showlocationmarker": true,
+            "center": [
+                -128,
+                80,
+                176
+            ],
+            "path": "2019-09-30_day"
+        },
         {
             "north_direction": 0,
             "world": "overworld_2019-09-03",
