@@ -33,13 +33,13 @@ var overviewerConfig = {
             "world": "overworld_2019-09-30",
             "poititle": "Markers",
             "imgextension": "png",
+            "last_rendertime": 1569604000,
             "maxZoom": 10,
-            "last_rendertime": 1569710729,
             "minZoom": 0,
             "zoomLevels": 10,
             "spawn": [
                 -128,
-                80,
+                89,
                 176
             ],
             "name": "Day",
@@ -50,10 +50,37 @@ var overviewerConfig = {
             "showlocationmarker": true,
             "center": [
                 -128,
-                80,
+                89,
                 176
             ],
             "path": "2019-09-30_day"
+        },
+        {
+            "north_direction": 0,
+            "world": "overworld_2019-09-30",
+            "poititle": "Markers",
+            "imgextension": "png",
+            "last_rendertime": 1569604000,
+            "maxZoom": 10,
+            "minZoom": 0,
+            "zoomLevels": 10,
+            "spawn": [
+                -128,
+                89,
+                176
+            ],
+            "name": "Night",
+            "base": "https://flexas.s3.amazonaws.com/",
+            "defaultZoom": 1,
+            "bgcolor": "#1a1a1a",
+            "isOverlay": false,
+            "showlocationmarker": true,
+            "center": [
+                -128,
+                89,
+                176
+            ],
+            "path": "2019-09-30_nigh"
         },
         {
             "north_direction": 0,
@@ -69,7 +96,7 @@ var overviewerConfig = {
                 80,
                 176
             ],
-            "name": "Day",
+            "name": "Night",
             "base": "https://flexas.s3.amazonaws.com/",
             "defaultZoom": 1,
             "bgcolor": "#1a1a1a",
