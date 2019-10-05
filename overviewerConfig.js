@@ -23,14 +23,14 @@ var overviewerConfig = {
         "UPPERRIGHT": 1
     },
     "worlds": [
-        "overworld_2019-09-30",
-        "overworld_2019-09-03",
-        // "minecraft - nether"
+        "overworld_2019-09-27",
+        "overworld_2019-09-10",
+        // "annwn"
     ],
     "tilesets": [
         {
             "north_direction": 0,
-            "world": "overworld_2019-09-30",
+            "world": "overworld_2019-09-27",
             "poititle": "Markers",
             "imgextension": "png",
             "last_rendertime": 1569604000,
@@ -53,11 +53,11 @@ var overviewerConfig = {
                 89,
                 176
             ],
-            "path": "2019-09-30_day"
+            "path": "2019-09-27_day"
         },
         {
             "north_direction": 0,
-            "world": "overworld_2019-09-30",
+            "world": "overworld_2019-09-27",
             "poititle": "Markers",
             "imgextension": "png",
             "last_rendertime": 1569604000,
@@ -80,11 +80,11 @@ var overviewerConfig = {
                 89,
                 176
             ],
-            "path": "2019-09-30_night"
+            "path": "2019-09-27_night"
         },
         {
             "north_direction": 0,
-            "world": "overworld_2019-09-03",
+            "world": "overworld_2019-09-10",
             "poititle": "Markers",
             "imgextension": "png",
             "maxZoom": 10,
@@ -107,11 +107,11 @@ var overviewerConfig = {
                 80,
                 176
             ],
-            "path": "2019-09-03_day"
+            "path": "2019-09-10_day"
         },
         {
             "north_direction": 0,
-            "world": "overworld_2019-09-03",
+            "world": "overworld_2019-09-10",
             "poititle": "Markers",
             "imgextension": "png",
             "maxZoom": 10,
@@ -134,31 +134,8 @@ var overviewerConfig = {
                 80,
                 176
             ],
-            "path": "2019-09-03_night"
+            "path": "2019-09-10_night"
         },
-        // {
-        //     "north_direction": 0,
-        //     "world": "minecraft - nether",
-        //     "poititle": "Markers",
-        //     "imgextension": "png",
-        //     "maxZoom": 7,
-        //     "last_rendertime": 1567376740,
-        //     "minZoom": 0,
-        //     "zoomLevels": 7,
-        //     "spawn": false,
-        //     "name": "Nether",
-        //     "base": "",
-        //     "defaultZoom": 1,
-        //     "bgcolor": "#1a1a1a",
-        //     "isOverlay": false,
-        //     "showlocationmarker": true,
-        //     "center": [
-        //         -128,
-        //         80,
-        //         176
-        //     ],
-        //     "path": "nether"
-        // },
     ],
     "map": {
         "north_direction": "lower-left",

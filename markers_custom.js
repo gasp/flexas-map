@@ -94,20 +94,20 @@ markersDB["CustomMarkers"] = {
   ]
 }
 
-markers["2019-09-03_day"] = [
+markers["2019-09-10_day"] = [
   {
     displayName: "Points of Interest",
     groupName: "CustomMarkers",
-    checked: true,
+    checked: false,
     createInfoWindow: true,
     icon: "map-marker.png"
   },
 ];
-markers["2019-09-03_night"] = [
+markers["2019-09-10_night"] = [
   {
     displayName: "Points of Interest",
     groupName: "CustomMarkers",
-    checked: true,
+    checked: false,
     createInfoWindow: true,
     icon: "map-marker.png"
   },
