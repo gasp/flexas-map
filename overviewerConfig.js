@@ -25,7 +25,7 @@ var overviewerConfig = {
     "worlds": [
         "overworld_2019-09-27",
         "overworld_2019-09-10",
-        // "annwn"
+        "annwn"
     ],
     "tilesets": [
         {
@@ -136,6 +136,61 @@ var overviewerConfig = {
             ],
             "path": "2019-09-10_night"
         },
+        {
+            "poititle": "Markers",
+            "center": [
+                -64,
+                64,
+                240
+            ],
+            "isOverlay": false,
+            "maxZoom": 10,
+            "imgextension": "png",
+            "defaultZoom": 1,
+            "name": "Day",
+            "north_direction": 0,
+            "base": "https://flexas.s3.amazonaws.com/",
+            "path": "annwn_day",
+            "bgcolor": "#1a1a1a",
+            "last_rendertime": 1349032908,
+            "spawn": [
+                -64,
+                64,
+                240
+            ],
+            "showlocationmarker": true,
+            "minZoom": 0,
+            "world": "annwn",
+            "zoomLevels": 10
+        },
+        {
+            "poititle": "Markers",
+            "center": [
+                -64,
+                64,
+                240
+            ],
+            "isOverlay": false,
+            "maxZoom": 10,
+            "imgextension": "png",
+            "defaultZoom": 1,
+            "name": "Night",
+            "north_direction": 0,
+            "base": "https://flexas.s3.amazonaws.com/",
+            "path": "annwn_night",
+            "bgcolor": "#1a1a1a",
+            "last_rendertime": 1349032908,
+            "spawn": [
+                -64,
+                64,
+                240
+            ],
+            "showlocationmarker": true,
+            "minZoom": 0,
+            "world": "annwn",
+            "zoomLevels": 10
+        }
+
     ],
     "map": {
         "north_direction": "lower-left",
